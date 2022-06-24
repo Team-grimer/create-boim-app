@@ -1,6 +1,7 @@
 {
   "private": false,
   "name": "boim",
+  "version": "1.0.0",
   "scripts": {
     "dev": "boim dev",
     "build": "boim build",
