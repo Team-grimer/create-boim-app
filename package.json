@@ -12,8 +12,8 @@
     "boim": "./bin/script.js"
   },
   "dependencies": {
-    "chalk": "^5.0.1",
-    "commander": "^9.3.0",
+    "chalk": "^4.0.0",
+    "commander": "^8.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   }
