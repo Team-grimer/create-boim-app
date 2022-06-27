@@ -7,9 +7,9 @@
     "build": "boim build",
     "start": "boim start"
   },
-  "main": "node_modules/boim_test2/bin/script.js",
+  "main": "./bin/script.js",
   "bin": {
-    "boim": "node_modules/boim_test2/bin/script.js"
+    "boim": "./bin/script.js"
   },
   "dependencies": {
     "chalk": "^5.0.1",
