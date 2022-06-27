@@ -1,10 +1,8 @@
 #! /usr/bin/env node --max-old-space-size=4096
 
+import chalk from "chalk";
 const { spawn } = require("child_process");
-
 const { program } = require("commander");
-const chalk = require("chalk");
-
 const process = spawn("bash");
 
 program
