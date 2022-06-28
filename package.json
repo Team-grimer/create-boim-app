@@ -7,9 +7,9 @@
     "build": "boim build",
     "start": "boim start"
   },
-  "main": "../node_modules/boim_test2/bin/script.js",
+  "main": "./node_modules/boim_test2/bin/script.js",
   "bin": {
-    "boim": "../node_modules/boim_test2/bin/script.js"
+    "boim": "./node_modules/boim_test2/bin/script.js"
   },
   "dependencies": {
     "react": "17.0.2",
