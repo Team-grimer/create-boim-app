@@ -12,6 +12,7 @@
     "boim": "./node_modules/boim/bin/script.js"
   },
   "dependencies": {
+    "boim": "1.0.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   }
