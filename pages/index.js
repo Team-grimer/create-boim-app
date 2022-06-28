@@ -1,17 +1,15 @@
-import React, { useState } from "react";
-import grimer from "../public/team_grimer.png";
+import styles from "../styles/Main.module.css";
+import "../styles/global.css";
 
-export default function Home() {
-  const [count, setCount] = useState(0);
-  const handleButtonClick = () => {
-    setCount(prev => prev + 1);
-  }
+function Main() {
   return (
-    <>
-      <div>Welcome! boimjs</div>
-      <img src={grimer} alt="grimer_logo" />
-      <p>{count}</p>
-      <button onClick={handleButtonClick}>Click Me!</button>
-    </>
-  )
+    <div className={styles.app}>
+      <div className={styles.content}>Create your boim project</div>
+      <div>
+        <img className={styles.appLogo} src="../public/logo.png" alt="logo" />
+      </div>
+    </div>
+  );
 }
+
+export default Main;
