@@ -29,4 +29,4 @@ You may also see any lint errors in the console.
 
 ## Learn More
 
-You can learn more in the [Create Boim App documentation](https://boim.netlify.app/document).
+You can learn more in the [Create Boim App documentation](https://boim-documentation.herokuapp.com).
