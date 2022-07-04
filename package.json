@@ -3,13 +3,12 @@
   "name": "boim",
   "version": "1.0.0",
   "scripts": {
-    "dev": "boim-runner dev",
-    "build": "boim-runner build",
-    "start": "boim-runner start"
+    "dev": "cd node_modules/boim && npm run dev",
+    "build": "cd node_modules/boim && npm run build",
+    "start": "cd node_modules/boim && node ../../dist/server/_www"
   },
   "dependencies": {
     "boim": "1.0.6",
-    "boim-runner": "^1.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   }
